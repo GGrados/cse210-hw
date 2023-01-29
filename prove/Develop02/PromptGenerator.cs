@@ -5,7 +5,7 @@ using System.IO;
 public class PromptGenerator
 {
 
-    public List<String> _prompts = new List<String>(); //  list of prompts
+    public List<String> _prompts = new List<String>(); //  Empty list of prompts
 
 
 

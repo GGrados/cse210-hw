@@ -20,7 +20,7 @@ class Program
         while (runProgram) // Program starts 
         {
 
-            Console.WriteLine("Please select one of the following choices: ");
+            Console.WriteLine("Please select one of the following choices:  ");
             Console.WriteLine("1- Write");
             Console.WriteLine("2- Display");
             Console.WriteLine("3- Load");

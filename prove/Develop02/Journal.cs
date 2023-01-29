@@ -19,7 +19,7 @@ public class Journal
 
         string dateText = theCurrentTime.ToShortDateString(); // getting the date as a string
 
-        string formattedEntryString = ($"Date: {dateText} - Prompt: {prompt} {entry}"); // Formatting the string with the parameters
+        string formattedEntryString = ($"Date: {dateText} - Prompt: {prompt}, {entry}"); // Formatting the string with the parameters
 
         _entries.Add(formattedEntryString); // Adding the string to the _entries attribute
     }
