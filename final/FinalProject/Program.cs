@@ -4,6 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        App app = new App();
+
+        app.MainMenu();
+        string userChoice = Console.ReadLine();
+        app.VerifyCredentialsAndRedirect(userChoice);
+
+
     }
+
+
 }
